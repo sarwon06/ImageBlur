@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "775353430758",
+    "firebase_url": "https://tafirebaseproject-b2f83.firebaseio.com",
+    "project_id": "tafirebaseproject-b2f83",
+    "storage_bucket": "tafirebaseproject-b2f83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775353430758:android:b56ae0c5a923ab80b98127",
+        "android_client_info": {
+          "package_name": "id.ac.polinema.ta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775353430758-2k1br7kr8oaak9fhbv4037j2kdffcmol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.polinema.ta",
+            "certificate_hash": "e13c4bf12017239360343219116538f461f336e9"
+          }
+        },
+        {
+          "client_id": "775353430758-q0jl3pn0ku97m110d6fergau0ujrju4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeIQnsr1hrtf0Hay7pAXsLGaCigmMQbBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775353430758-q0jl3pn0ku97m110d6fergau0ujrju4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

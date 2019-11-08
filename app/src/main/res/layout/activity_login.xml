@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFFFFF"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/tv_email_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"/>
+
+    <EditText
+        android:id="@+id/edit_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_email_login"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/montserrat_regular" />
+
+    <TextView
+        android:id="@+id/tv_pass_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/edit_email_login"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"/>
+
+    <EditText
+        android:id="@+id/edit_pass_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_pass_login"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:inputType="textPassword"
+        android:fontFamily="@font/montserrat_regular"/>
+
+    <TextView
+        android:id="@+id/tv_forgot_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_pass_login"
+        android:text="Forgot Password?"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/montserrat_semibold"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_below="@id/tv_forgot_pass"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_below="@id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign Up"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_below="@id/tv_or"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_facebook_login"
+        android:layout_width="100dp"
+        android:layout_height="101dp"
+        android:layout_below="@id/tv_register"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/fb"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_google_login"
+        android:layout_width="100dp"
+        android:layout_height="101dp"
+        android:layout_below="@id/tv_register"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/google"
+        android:layout_marginLeft="200dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

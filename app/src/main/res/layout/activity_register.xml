@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFFFFF"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/app_logo_register"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/cmr"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_email_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/app_logo_register"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_semibold"/>
+
+    <EditText
+        android:id="@+id/edit_email_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tv_email_register"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/montserrat_regular"/>
+
+    <TextView
+        android:id="@+id/tv_pass_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/edit_email_register"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"/>
+
+    <EditText
+        android:id="@+id/edit_pass_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/tv_pass_register"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/montserrat_regular"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_below="@id/edit_pass_register"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have an account? Sign In"
+        android:layout_below="@id/btn_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"/>
+
+</RelativeLayout>
